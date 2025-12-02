@@ -11,7 +11,7 @@ export const authConfig: AuthConfig = {
   authorizationEndpoint: "https://accounts.spotify.com/authorize",
   tokenEndpoint: "https://accounts.spotify.com/api/token",
 
-  redirectUri: "https://ElenildoFilho.github.io/spotify-oauth/",
+  redirectUri: "https://ElenildoFilho.github.io/oauth/",
 
   scopes: "user-read-email user-read-private user-top-read playlist-read-private",
 };
