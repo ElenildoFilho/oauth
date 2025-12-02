@@ -12,7 +12,7 @@ const App: React.FC = () => {
       try {
         const res = await handleCallback();
         if (res?.access_token) {
-          
+
           setToken(res.access_token);
         }
       } catch (e) {
@@ -25,6 +25,7 @@ const App: React.FC = () => {
   }, []);
 
   if (loading) {
+    
     return <p>Carregando autenticação...</p>;
   }
 
